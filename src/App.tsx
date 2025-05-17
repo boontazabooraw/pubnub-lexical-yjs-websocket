@@ -68,9 +68,9 @@ export default function App() {
             ErrorBoundary={LexicalErrorBoundary}
           />
           <CollaborationPlugin
-            // cursorColor="rgba(255, 0, 255, 0.5)"
-            // cursorsContainerRef={document.getElementById('#yjs-collaboration-plugin-container')}
-            // username={pubnubConfig.username}
+            cursorColor="rgba(255, 0, 255, 0.5)"
+            cursorsContainerRef={document.getElementById('#yjs-collaboration-plugin-container')}
+            username={pubnubConfig.username}
             providerFactory={(id, yjsDocMap) => {
               const doc = new Y.Doc();
               yjsDocMap.set(id, doc);
