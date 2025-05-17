@@ -28,7 +28,7 @@ import ToolbarPlugin from './plugins/ToolbarPlugin';
 
 const editorConfig = {
   editorState: null,
-  namespace: 'documentID-223-policy-management-doc',
+  namespace: 'documentID-207-policy-management-doc',
   //nodes: [],
   // Handling of errors during update
   onError(error: Error) {
